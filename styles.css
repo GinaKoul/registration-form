@@ -1,0 +1,175 @@
+#fieldStudent{
+	display: none;
+}
+
+#fieldLibrary{
+	display: none;
+}
+
+input{
+	width: 160px;
+	height: 30px;
+	padding: 0 20px;
+	border: 1px solid darkslategrey;
+	outline: none;
+	background: transparent;
+	color: darkslategrey;
+}
+
+#submit{
+ display: none;
+}
+
+button{
+	width: 80px;
+	height: 30px;
+	padding: 0px;
+	border: 1px solid darkslategrey;
+	outline: none;
+	background: transparent;
+	color: darkslategrey;
+}
+
+.gender input{
+	width: 17px;
+	height: 17px;
+}
+
+.stvsli input{
+	width: 17px;
+	height: 17px;
+}
+
+.college input{
+	width: 17px;
+	height: 17px;
+}
+
+.type input{
+	width: 17px;
+	height: 17px;
+}
+
+.agree input{
+	width: 17px;
+	height: 17px;
+}
+
+form{
+	font-family: fantasy;
+	font-size: 15px;
+	position: absolute;
+	right: 50%;
+	transform: translate(50%);
+	color: darkslategrey;
+	height: 50vh;
+  	margin-top: 15vh;
+  	padding: 20px;
+}
+
+.title{
+	font-family: fantasy;
+	position: absolute;
+	right: 50%;
+	transform: translate(50%);
+	color: darkslategrey;
+  	margin-top: 1vh;
+  	margin-bottom: 1vh;
+  	padding: 20px;
+}
+
+.title p{
+	text-align: center;
+	font-size: 15px;
+}
+
+html, body{
+	margin:0;
+	height:100%;
+}
+
+.container{
+	width:100%;
+	height:300vh;
+	border:25px groove rgb(86, 100, 136);
+	box-sizing:border-box;
+	background-image: url("./images/fog.jpg");
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: left;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;*/
+}
+
+textarea{
+	width: 160px;
+	height: 30px;
+	padding: 0 20px;
+	border: 1px solid darkslategrey;
+	outline: none;
+	background: transparent;
+	color: darkslategrey;
+}
+
+#Sbutton input {
+	width: 80px;
+	height: 30px;
+	padding: 0px;
+	font-family: fantasy;
+	font-size: 15px;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	transition: all 0.5s; 
+}
+
+#Sbutton{
+	position: absolute;
+	right: 50%;
+	cursor: pointer;
+}
+
+#Sbutton input:hover {
+ 	box-shadow: 0px 0px 15px darkslategrey;;
+}
+
+.valid {
+	display: block;
+	animation: valid 1s forwards;
+}
+
+.fa-spinner {
+	display: block;
+	width: 20px;
+	font-size: large;
+	margin: auto;
+	color: darkslategrey;
+	animation: spin 2s infinite;
+}
+
+#check{
+	display: none;
+	width: 20px;
+	font-size: large;
+	margin: auto;
+	color: rgb(146, 111, 82);
+}
+
+@keyframes spin {
+	from{
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes valid {
+	from{
+		width: 40px;
+	}
+	to {
+		width: 100px;
+	}         
+}
